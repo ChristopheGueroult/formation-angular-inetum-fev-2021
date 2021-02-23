@@ -9,3 +9,7 @@
   ☐ en même temps ClientsRoutingModule
   ☐ créer un dossier pages
   ☐ PageListClientsComponent, PageAddClientComponent, PageEditClientComponent
+
+☐ tp routing first part
+  ☐ ajouter une route 'clients' pour charger en lazy loading ClientsModule
+  ☐ ajouter une route '??' pour charger en lazy loading PageNotFoundModule
