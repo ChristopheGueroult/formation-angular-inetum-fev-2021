@@ -2,3 +2,10 @@
 ☐ LOGIN MODULE
 ☐ TEMPLATES MODULE
 ☐ GENERATE AA DOC
+
+
+☐ tp client :
+  ☐ créer le module ClientsModule
+  ☐ en même temps ClientsRoutingModule
+  ☐ créer un dossier pages
+  ☐ PageListClientsComponent, PageAddClientComponent, PageEditClientComponent
