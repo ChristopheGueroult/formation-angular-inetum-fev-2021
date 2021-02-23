@@ -1,1 +1,34 @@
-<p>ui works!</p>
+<header class="fixed-top">
+  <span (click)="toggle()">
+    <ng-content select=".tr-icon-cross"></ng-content>
+  </span>
+  <ng-content select=".tr-header"></ng-content>
+
+</header>
+<main class="close-aside">
+
+  <div class="shadow position-fixed">
+
+  </div>
+
+  <aside>
+    <div class="scroller">
+
+      <ng-content select=".tr-nav"></ng-content>
+
+    </div>
+  </aside>
+
+  <div class="page">
+
+    <div class="contents">
+      <ng-content select=".tr-page"></ng-content>
+    </div>
+
+    <footer>
+      <ng-content select=".tr-footer"></ng-content>
+
+    </footer>
+
+  </div>
+</main>
