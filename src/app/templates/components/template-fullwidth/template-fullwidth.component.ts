@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateFullwidthComponent implements OnInit {
   title!: string;
-  constructor() {}
+  constructor() {
+    // mock title
+    this.title = 'un titre';
+  }
 
   ngOnInit(): void {}
 }

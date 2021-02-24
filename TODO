@@ -14,6 +14,6 @@
   ☐ ajouter une route 'clients' pour charger en lazy loading ClientsModule
   ☐ ajouter une route '??' pour charger en lazy loading PageNotFoundModule
 
-☐ découpage des routes sur les différents modules de routing
-☐ loginrouting module
-☐ preloading de modules pour le lazy loading
+✔ découpage des routes sur les différents modules de routing @done(21-02-24 11:16)
+✔ loginrouting module @done(21-02-24 11:16)
+✔ preloading de modules pour le lazy loading @done(21-02-24 11:16)
