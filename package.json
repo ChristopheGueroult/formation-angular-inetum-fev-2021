@@ -5,10 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "doc": "compodoc -p tsconfig.json -o -s",
+    "json-server": "json-server --watch mock_db/db.json --port 8000",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer dist/crm-inetum-fev/stats.json"
   },
   "private": true,
