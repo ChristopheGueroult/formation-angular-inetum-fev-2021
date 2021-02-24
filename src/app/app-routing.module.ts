@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
-import { Router, RouterModule, Routes } from '@angular/router';
-import { PageForgotPasswordComponent } from './login/pages/page-forgot-password/page-forgot-password.component';
-import { PageResetPasswordComponent } from './login/pages/page-reset-password/page-reset-password.component';
-import { PageSignInComponent } from './login/pages/page-sign-in/page-sign-in.component';
-import { PageSignUpComponent } from './login/pages/page-sign-up/page-sign-up.component';
+import {
+  PreloadAllModules,
+  Router,
+  RouterModule,
+  Routes,
+} from '@angular/router';
 
 // angular.io/
 const routes: Routes = [
   { path: '', redirectTo: '/signin', pathMatch: 'full' },
-  { path: 'signin', component: PageSignInComponent },
-  { path: 'signup', component: PageSignUpComponent },
-  { path: 'reset', component: PageResetPasswordComponent },
-  { path: 'forgot', component: PageForgotPasswordComponent },
   {
     path: 'orders',
     loadChildren: () =>
@@ -32,7 +29,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, {
+      preloadingStrategy: PreloadAllModules,
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {
