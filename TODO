@@ -18,8 +18,8 @@
 ✔ loginrouting module @done(21-02-24 11:16)
 ✔ preloading de modules pour le lazy loading @done(21-02-24 11:16)
 
-☐ async pipe
-☐ ex de unsubscribe (sur signin)
+✔ async pipe @done(21-02-25 14:22)
+✔ ex de unsubscribe (sur signin) @done(21-02-25 14:34)
 ☐ directive perso
 
 ☐ tp client
