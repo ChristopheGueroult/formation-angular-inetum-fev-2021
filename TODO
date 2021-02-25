@@ -20,7 +20,19 @@
 
 ✔ async pipe @done(21-02-25 14:22)
 ✔ ex de unsubscribe (sur signin) @done(21-02-25 14:34)
-☐ directive perso
+✔ directive perso @done(21-02-25 16:22)
 
-☐ tp client
+☐ tp clients
+  ☐ enum client (db.json)
+  ☐ interface client (db.json)
+  ☐ modele client (state ACTIVE , tva 20, totalCaHt 0)
+  ☐ le service client
+  ☐ page  list client ts
+  ☐ page list client html
+    ☐ app template full width
+    ☐ app table light
+      ☐ colones du tableau : name, total ht, total ttc (a calculer), state
+      ☐ utilisez le meme pipe total que sur orders pour calculer le total ttc des clients
+      ☐ utilisez la meme directive que sur les orders (scss : .state-active, .state-inactive)
+
 
