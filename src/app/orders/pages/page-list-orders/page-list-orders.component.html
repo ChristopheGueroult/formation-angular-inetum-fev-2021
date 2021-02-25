@@ -1,5 +1,4 @@
-<app-template-fullwidth [title]="myTitle" *ngIf="collection">
-  <!-- {{collection | json}} -->
+<app-template-fullwidth [title]="myTitle" *ngIf="collection$ | async as collection">
   <app-table-light [headers]="headers">
     <tr *ngFor="let item of collection">
       <td>{{ item.typePresta }}</td>
