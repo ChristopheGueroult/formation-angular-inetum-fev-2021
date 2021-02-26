@@ -23,6 +23,10 @@ export class PageEditOrderComponent implements OnInit {
         return this.ordersService.getItemById(id);
       })
     );
+    // this.route.paramMap.subscribe((params) => {
+    //   const id = Number(params.get('id'));
+    //   this.item$ = this.ordersService.getItemById(id);
+    // });
   }
 
   ngOnInit(): void {}
